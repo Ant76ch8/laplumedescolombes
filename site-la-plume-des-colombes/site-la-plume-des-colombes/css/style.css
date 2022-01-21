@@ -1,0 +1,44 @@
+html, body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Lato;
+
+}
+/* typo */
+@font-face {
+    font-family: "Lato";
+    src: url('../typo/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: "LatoItalic";
+    src: url('../typo/Lato-LightItalic.ttf');
+}
+/* fin typo */
+
+body{
+
+}
+.logoAccueil{
+    margin:auto;
+    padding:auto;
+}
+.background_image{
+    background-image: url('../img/background.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+/* début css nav */
+
+.nav-link{
+    color: black !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: rgb(71, 71, 71) !important;
+}
+
+/* fin nav */
