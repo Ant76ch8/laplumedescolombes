@@ -18,36 +18,36 @@ html, body {
 }
 /* fin typo */
 
+/* accueil */
 .accueil{
-    background: url('../img/background-retouche.png') 100%;
+    background: url('../img/background2.png') 100%;
 }
 .logoAccueil{
     margin:auto;
     padding:auto;
 }
+/* fin accueil */
 
 /* début css nav */
 .navbar{
     top: -100px;
     transition: 0.5s;
 }
-
 .nav-link{
     color: black !important;
     transition: 0.3s;
 }
-
 .nav-link:hover{
     color: rgb(71, 71, 71) !important;
 }
-
+.menu1{
+    margin: 10px 0;
+}
 /* fin nav */
 
-.test{
-    height: 500px;
-}
-
+/* carousel */
 #carousel{
     margin: 100px;
 }
 
+/* fin carousel */
