@@ -3,21 +3,23 @@ html, body {
     padding:0;
     box-sizing: border-box;
     font-family:Lato;
-    background-image: url('img/background.png');
+    image-rendering: -webkit-optimize-contrast;
 }
+
+
 /* typo */
 @font-face {
     font-family: "Lato";
-    src: url('typo/Lato-Regular.ttf');
+    src: url('../typo/Lato-Regular.ttf');
 }
 @font-face {
     font-family: "LatoItalic";
-    src: url('typo/Lato-LightItalic.ttf');
+    src: url('../typo/Lato-LightItalic.ttf');
 }
 /* fin typo */
 
-body{
-
+.accueil{
+    background: url('../img/background-retouche.png') 100%;
 }
 .logoAccueil{
     margin:auto;
@@ -25,6 +27,10 @@ body{
 }
 
 /* début css nav */
+.navbar{
+    top: -100px;
+    transition: 0.5s;
+}
 
 .nav-link{
     color: black !important;
@@ -36,3 +42,12 @@ body{
 }
 
 /* fin nav */
+
+.test{
+    height: 500px;
+}
+
+#carousel{
+    margin: 100px;
+}
+
