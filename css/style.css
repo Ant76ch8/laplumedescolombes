@@ -13,7 +13,11 @@ html, body {
     src: url('../typo/Lato-Regular.ttf');
 }
 @font-face {
-    font-family: "LatoItalic";
+    font-family: "Lato-light";
+    src: url("../typo/Lato-Light.ttf");
+}
+@font-face {
+    font-family: "Lato-LightItalic";
     src: url('../typo/Lato-LightItalic.ttf');
 }
 /* fin typo */
@@ -32,6 +36,7 @@ html, body {
 .navbar{
     top: -100px;
     transition: 0.5s ease;
+    background-color: #F1F2F4;
 }
 .nav-link{
     color: black !important;
@@ -39,6 +44,9 @@ html, body {
 }
 .nav-link:hover{
     color: #00465f !important;
+}
+.nav-item{
+    padding: 0 10px;
 }
 .menu1{
     margin: 10px 0;
@@ -55,3 +63,46 @@ html, body {
 }
 
 /* fin carousel */
+
+/* presentation accueil */
+h2{
+    font-family: Lato-Light;
+    padding: 30px 80px 60px 30px;
+}
+.who{
+    background-image: url("../img/plume-titre.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.presentation_accueil{
+    background-color: #F3E6DD;
+    padding: 60px 0;
+}
+.presentation_accueil .text-center{
+    padding: 50px;
+    background: white;
+    box-shadow: grey 4px 4px 5px;
+    border-radius: 20px;
+}
+p{
+    margin: 0;
+}
+.member{
+    background-image: url("../img/plume-titre-beige.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.adhesion_accueil{
+    padding: 60px 0;
+}
+.adhesion_accueil .text-center{
+    padding: 50px;
+    box-shadow: grey 4px 4px 5px;
+    border-radius: 20px;
+}
+
+
+footer{
+    height: 300px;
+    background-color: #F1F2F4;
+}
