@@ -31,14 +31,14 @@ html, body {
 /* début css nav */
 .navbar{
     top: -100px;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 .nav-link{
     color: black !important;
     transition: 0.3s;
 }
 .nav-link:hover{
-    color: rgb(71, 71, 71) !important;
+    color: #00465f !important;
 }
 .menu1{
     margin: 10px 0;
@@ -48,6 +48,10 @@ html, body {
 /* carousel */
 #carousel{
     margin: 100px;
+}
+.carousel-inner{
+    border-radius: 30px;
+    box-shadow: black 0 0 20px;
 }
 
 /* fin carousel */
