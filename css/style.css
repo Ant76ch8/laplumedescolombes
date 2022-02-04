@@ -33,8 +33,10 @@ html, body {
 /* fin accueil */
 
 /* début css nav */
-.navbar{
+.nav{
     top: -100px;
+}
+.navbar{
     transition: 0.5s ease;
     background-color: #F1F2F4;
 }
@@ -105,4 +107,7 @@ p{
 footer{
     height: 300px;
     background-color: #F1F2F4;
+}
+.copyright{
+    font-size: small;
 }
