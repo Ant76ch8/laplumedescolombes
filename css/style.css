@@ -33,25 +33,53 @@ html, body {
 /* fin accueil */
 
 /* début css nav */
-.nav{
-    top: -100px;
-}
-.navbar{
-    transition: 0.5s ease;
-    background-color: #F1F2F4;
+
+  /* GENERAL */
+.navbar-brand{
+    margin: auto 20px;
 }
 .nav-link{
     color: black !important;
     transition: 0.3s;
 }
-.nav-link:hover{
-    color: #00465f !important;
-}
 .nav-item{
-    padding: 0 10px;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
 }
+    /* MENU 1, MENU ANIME, MENUS2 => AUTRES PAGES */
 .menu1{
     margin: 10px 0;
+}
+.menuAnime{
+    top: -100px;
+    transition: 0.5s ease;
+}
+.menu2{
+    height: 80px;
+    padding: 0 20px;
+    background-color: #F1F2F4;
+}
+.menu2 nav ul{
+    height: 80%;
+}
+.menu2 .nav-item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.menu2 .nav-link{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    padding: 0 20px 10px 20px;
+}
+.menu2 .nav-item:hover{
+    background-color: #A3D9ED;
 }
 /* fin nav */
 
@@ -103,6 +131,10 @@ p{
     border-radius: 20px;
 }
 
+/* association */
+
+
+/* footer */
 
 footer{
     height: 300px;
