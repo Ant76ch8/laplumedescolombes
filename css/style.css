@@ -5,6 +5,9 @@ html, body {
     font-family:Lato;
     image-rendering: -webkit-optimize-contrast;
 }
+.container-fluid{
+    margin-top: 80px;
+}
 
 
 /* typo */
@@ -132,7 +135,52 @@ p{
 }
 
 /* association */
+.titreAsso{
+    background-image: url("../img/plume-titre-beige.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
 
+.logoPageAsso{
+    padding: 20px 50px;
+    border-radius: 50px;
+    box-shadow: grey 2px 2px 5px;
+}
+.logoPageAsso img{
+    width: 100%;
+}
+.soustitre + p{
+    padding: 30px;
+    border-radius: 10px;
+    border: #D7C0DB 1px solid;
+}
+
+.photo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.notreAsso > div > .row{
+    margin-top: 60px;
+}
+.membreAsso{
+    background-color: #F3E6DD;
+    padding: 30px;
+    border-radius: 10px;
+}
+.soustitre + .row{
+    padding: 50px;
+    background: white;
+    box-shadow: grey 4px 4px 5px;
+    border-radius: 10px;
+}
+.notreAsso > div:last-child{
+    margin-bottom: 100px;
+}
+
+/* fin association */
 
 /* footer */
 
