@@ -94,6 +94,16 @@ html, body {
     border-radius: 30px;
     box-shadow: black 0 0 20px;
 }
+.carousel-indicators [data-bs-target]{
+    height: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    transform: scale(1.5);
+}
 
 /* fin carousel */
 
