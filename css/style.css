@@ -8,6 +8,10 @@ html, body {
 .container-fluid{
     margin-top: 80px;
 }
+.fondAccueil + .container-fluid{
+    background-color: white;
+    margin: 0;
+}
 
 
 /* typo */
@@ -27,7 +31,16 @@ html, body {
 
 /* accueil */
 .accueil{
-    background: url('../img/background2.png') 100%;
+    background-color: transparent;
+}
+.fondAccueil{
+    background: url('../img/background-retouche.png') 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -400;
 }
 .logoAccueil{
     margin:auto;
@@ -82,6 +95,12 @@ html, body {
     padding: 0 20px 10px 20px;
 }
 .menu2 .nav-item:hover{
+    background-color: rgba(200, 233, 243, 0.699);
+}
+.active {
+    background-color: #A3D9ED;
+}
+.menu2 .active:hover{
     background-color: #A3D9ED;
 }
 /* fin nav */
@@ -89,6 +108,7 @@ html, body {
 /* carousel */
 #carousel{
     margin: 100px;
+    padding: 100px;
 }
 .carousel-inner{
     border-radius: 30px;
@@ -191,6 +211,33 @@ p{
 }
 
 /* fin association */
+
+/* poemes */
+
+.nuage{
+    width: 100%;
+    
+    background-color: transparent;
+}
+.nuage img{
+    width: 100%;
+}
+.fondPoemes{
+    background: url("../img/fondPoèmes-originale.jpg") no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    z-index: -400;
+}
+.nuage + div{
+    background-color: white;
+}
+
+/* fin poemes */
 
 /* footer */
 
