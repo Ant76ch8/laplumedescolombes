@@ -34,7 +34,7 @@ html, body {
     background-color: transparent;
 }
 .fondAccueil{
-    background: url('../img/background-retouche.png') 100%;
+    background: url('../img/background2.png') 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -112,7 +112,7 @@ html, body {
 }
 .carousel-inner{
     border-radius: 30px;
-    box-shadow: black 0 0 20px;
+    box-shadow: rgb(94, 94, 94) 3px 3px 8px;
 }
 .carousel-indicators [data-bs-target]{
     height: 30px;
@@ -216,7 +216,6 @@ p{
 
 .nuage{
     width: 100%;
-    
     background-color: transparent;
 }
 .nuage img{
@@ -230,11 +229,18 @@ p{
     left: 0;
     height: 100%;
     width: 100%;
-    
     z-index: -400;
 }
-.nuage + div{
+.achatLivre{
     background-color: white;
+    padding: 100px 0;
+}
+
+.achatLivre > div{
+    margin: 100px 0;
+}
+.achatLivre .btn{
+    box-shadow: black 0 0 5px;
 }
 
 /* fin poemes */
