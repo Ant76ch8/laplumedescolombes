@@ -248,8 +248,16 @@ p{
 /* footer */
 
 footer{
-    height: 250px;
+    height: 200px;
     background-color: #F1F2F4;
+}
+footer > div a img{
+    width: 40px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+footer > div a:hover img{
+    transform: scale(1.2);
 }
 .copyright{
     font-size: small;
