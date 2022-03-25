@@ -262,3 +262,16 @@ footer > div a:hover img{
 .copyright{
     font-size: small;
 }
+
+/* classes pour animation */
+
+.invisible{
+    transition: 0.6s;
+    opacity: 0;
+    transform: translate(0, 20px);
+}
+.visible{
+    transition: 0.6s;
+    opacity: 1;
+    transform: translate(0, -20px);
+}
