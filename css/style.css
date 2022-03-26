@@ -240,7 +240,11 @@ p{
     margin: 100px 0;
 }
 .achatLivre .btn{
-    box-shadow: black 0 0 5px;
+    box-shadow: rgb(124, 124, 124) 0 0 5px;
+    transition: 0.3s;
+}
+.achatLivre .btn:hover{
+    transform: scale(1.1);
 }
 
 /* fin poemes */
@@ -266,12 +270,12 @@ footer > div a:hover img{
 /* classes pour animation */
 
 .invisible{
-    transition: 0.6s;
+    transition: 0.7s;
     opacity: 0;
     transform: translate(0, 20px);
 }
 .visible{
-    transition: 0.6s;
+    transition: 0.7s;
     opacity: 1;
     transform: translate(0, -20px);
 }
