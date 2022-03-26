@@ -315,6 +315,11 @@ footer > div a:hover img{
     font-size: small;
 }
 
+/* mentions */
+.mentions > p{
+    padding-bottom: 30px;
+}
+
 /* classes pour animation */
 
 .invisible{
