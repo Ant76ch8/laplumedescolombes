@@ -54,6 +54,9 @@ html, body {
 .navbar-brand{
     margin: auto 20px;
 }
+.navbar-brand img{
+    height: 70px;
+}
 .nav-link{
     color: black !important;
     transition: 0.3s;
@@ -112,7 +115,7 @@ html, body {
 }
 .carousel-inner{
     border-radius: 30px;
-    box-shadow: rgb(94, 94, 94) 3px 3px 8px;
+    box-shadow: rgb(170, 170, 170) 3px 3px 8px;
 }
 .carousel-indicators [data-bs-target]{
     height: 30px;
@@ -144,7 +147,7 @@ h2{
 .presentation_accueil .text-center{
     padding: 50px;
     background: white;
-    box-shadow: grey 4px 4px 5px;
+    box-shadow: rgb(170, 170, 170) 3px 3px 8px;
     border-radius: 20px;
 }
 p{
@@ -160,7 +163,7 @@ p{
 }
 .adhesion_accueil .text-center{
     padding: 50px;
-    box-shadow: grey 4px 4px 5px;
+    box-shadow: rgb(170, 170, 170) 3px 3px 8px;
     border-radius: 20px;
 }
 
@@ -175,7 +178,7 @@ p{
 .logoPageAsso{
     padding: 20px 50px;
     border-radius: 50px;
-    box-shadow: grey 2px 2px 5px;
+    box-shadow: rgb(170, 170, 170) 2px 2px 8px;
 }
 .logoPageAsso img{
     width: 100%;
@@ -211,7 +214,7 @@ p{
 .soustitre + .row{
     padding: 50px;
     background: white;
-    box-shadow: grey 4px 4px 5px;
+    box-shadow: rgb(170, 170, 170) 3px 3px 8px;
     border-radius: 10px;
 }
 .soustitre{
@@ -270,7 +273,7 @@ p{
     margin: 100px 0;
 }
 .achatLivre .btn{
-    box-shadow: rgb(124, 124, 124) 0 0 5px;
+    box-shadow: rgb(170, 170, 170) 0 0 8px;
     transition: 0.3s;
 }
 .achatLivre .btn:hover{
@@ -285,7 +288,7 @@ p{
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    height:140px;
+    height:120px;
 }
 .fondBulletin > a{
     font-size: 1.2em;
@@ -331,7 +334,7 @@ a:link {
     text-decoration: none;
 }
 a:visited{
-    color:#F3E6DD;
+    color:#d3ab8f;
     text-decoration:none;
 }
 a:hover{

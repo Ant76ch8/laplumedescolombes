@@ -7,14 +7,33 @@ const titreAsso = document.querySelector(".titreAsso");
 const histoire = document.querySelector(".histoire");
 const membreAsso = document.querySelector(".membreAsso");
 const nousContacter = document.querySelector(".nousContacter");
+const couvLivre2 = document.querySelector(".couv-livre2");
+const aVenir = document.querySelector(".a-venir");
+const introEvent = document.querySelector(".intro_evenements");
+const titreEvent = document.querySelector(".titreEvenements");
+const rencontres = document.querySelector(".rencontres");
+const atelierPoesie = document.querySelector(".atelierPoesie");
 
 
 window.addEventListener("load", () => {
+
     // au chargement animation page asso
     titreAsso.className = "titreAsso visible";
     setTimeout(() => {
         histoire.className = "row d-flex justify-content-between visible histoire";
     }, 300);
+});
+
+window.addEventListener("load", () => {
+
+    // au chargement animation page évènement
+    titreEvent.className = "titreEvenements visible";
+    setTimeout(() => {
+        introEvent.className = "row intro_evenements visible";
+    }, 200);
+    setTimeout(() => {
+        rencontres.className = "row rencontres visible";
+    }, 400);
 });
 
 window.addEventListener("scroll", () => {
@@ -39,7 +58,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
     // animation page asso
     if (window.scrollY > 400){
-        membreAsso.className = "row membreAsso visible";
+        membreAsso.className = "row beige membreAsso visible";
     }
     if (window.scrollY > 700){
         nousContacter.className = "row d-flex justify-content-start visible nousContacter";
@@ -48,9 +67,22 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", () => {
+    //animation page poèmes
     if (window.scrollY > 1400){
         couvLivre.className = "col-lg-3 couv-livre visible";
         setTimeout(()=>{
             achat.className = "col-lg-4 offset-lg-1 d-flex flex-column justify-content-center achat visible";
-        }, 300)};
+        }, 200)};
+    if (window.scrollY > 1800){
+        aVenir.className = "col-lg-4 d-flex flex-column justify-content-center visible a-venir";
+        setTimeout(()=>{
+            couvLivre2.className = "col-lg-3 offset-lg-1 couv-livre2 visible";
+        }, 200)};
+});
+
+window.addEventListener("scroll", () => {
+    //animation page évènement
+    if (window.scrollY > 200){
+        atelierPoesie.className = "row beige atelierPoesie visible";
+    }
 });
