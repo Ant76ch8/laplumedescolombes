@@ -13,6 +13,8 @@ const introEvent = document.querySelector(".intro_evenements");
 const titreEvent = document.querySelector(".titreEvenements");
 const rencontres = document.querySelector(".rencontres");
 const atelierPoesie = document.querySelector(".atelierPoesie");
+const titreRejoindre = document.querySelector(".titreRejoindre");
+const rejoignezNous = document.querySelector(".rejoignezNous");
 
 
 window.addEventListener("load", () => {
@@ -34,6 +36,15 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         rencontres.className = "row rencontres visible";
     }, 400);
+});
+
+window.addEventListener("load", () => {
+
+    // au chargement animation page adhésion
+    titreRejoindre.className = "titreRejoindre visible";
+    setTimeout(() => {
+        rejoignezNous.className = "row rejoignezNous visible";
+    }, 200);
 });
 
 window.addEventListener("scroll", () => {

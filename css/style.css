@@ -168,7 +168,7 @@ p{
 }
 
 /* association et evenements*/
-.titreAsso, .titreEvenements {
+.titreAsso, .titreEvenements, .titreRejoindre {
     background-image: url("../img/plume-titre-beige.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -284,15 +284,15 @@ p{
 
 /*adhesion*/
 .fondBulletin{
-    background-image: url("../img/virgule-titre.png");
+    background-image: url("../img/virgule-titre2.png");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    height:120px;
+    height: 100px;
 }
 .fondBulletin > a{
     font-size: 1.2em;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 /* fin adhesion*/
@@ -332,6 +332,7 @@ footer > div a:hover img{
 a:link {
     color:#A3D9ED;
     text-decoration: none;
+    transition: 0.3s;
 }
 a:visited{
     color:#d3ab8f;
