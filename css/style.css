@@ -203,7 +203,7 @@ p{
     padding: 30px;
     border-radius: 10px;
 }
-.rencontres{
+.rencontres + .rejoignezNous{
     padding: 30px;
     border-radius: 10px;
     box-shadow: none;  
@@ -224,7 +224,7 @@ p{
     margin-bottom: 100px;
 }
 .fondEvenements{
-    background-image: url("../img/plume-titre-evenements.png");
+    background-image: url("../img/virgule-titre.png");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -239,6 +239,7 @@ p{
 .evenement1 {
     margin : 20px 0px 20px 0px;
 }
+
 /* fin association et evenement*/
 
 /* poemes */
@@ -274,6 +275,21 @@ p{
 
 /* fin poemes */
 
+/*adhesion*/
+.fondBulletin{
+    background-image: url("../img/virgule-titre.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:140px;
+}
+.fondBulletin > a{
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+/* fin adhesion*/
+
 /* footer */
 
 footer{
@@ -303,4 +319,22 @@ footer > div a:hover img{
     transition: 0.6s;
     opacity: 1;
     transform: translate(0, -20px);
+}
+
+/*lien*/
+a:link {
+    color:#A3D9ED;
+    text-decoration: none;
+}
+a:visited{
+    color:#F3E6DD;
+    text-decoration:none;
+}
+a:hover{
+    color:#D7C0DB;
+    text-decoration:none;
+}
+a:active{
+    color:#A3D9ED;
+    text-decoration:none;
 }
