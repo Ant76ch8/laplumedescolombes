@@ -164,8 +164,8 @@ p{
     border-radius: 20px;
 }
 
-/* association */
-.titreAsso{
+/* association et evenements*/
+.titreAsso, .titreEvenements {
     background-image: url("../img/plume-titre-beige.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -195,10 +195,18 @@ p{
 .notreAsso > div > .row{
     margin-top: 60px;
 }
-.membreAsso{
+.nosEvenements > div > .row{
+    margin-top: 60px;
+}
+.beige{
     background-color: #F3E6DD;
     padding: 30px;
     border-radius: 10px;
+}
+.rencontres + .rejoignezNous{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: none;  
 }
 .soustitre + .row{
     padding: 50px;
@@ -206,11 +214,33 @@ p{
     box-shadow: grey 4px 4px 5px;
     border-radius: 10px;
 }
+.soustitre{
+    margin-bottom:20px;
+}
 .notreAsso > div:last-child{
     margin-bottom: 100px;
 }
+.nosEvenements > div:last-child{
+    margin-bottom: 100px;
+}
+.fondEvenements{
+    background-image: url("../img/virgule-titre.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fondEvenements > h2 {
+    padding:0;
+    margin-top:30px;
+}
+.fondEvenements > p {
+    margin-top: 30px;
+}
+.evenement1 {
+    margin : 20px 0px 20px 0px;
+}
 
-/* fin association */
+/* fin association et evenement*/
 
 /* poemes */
 
@@ -249,6 +279,21 @@ p{
 
 /* fin poemes */
 
+/*adhesion*/
+.fondBulletin{
+    background-image: url("../img/virgule-titre.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:140px;
+}
+.fondBulletin > a{
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+/* fin adhesion*/
+
 /* footer */
 
 footer{
@@ -278,4 +323,22 @@ footer > div a:hover img{
     transition: 0.7s;
     opacity: 1;
     transform: translate(0, -20px);
+}
+
+/*lien*/
+a:link {
+    color:#A3D9ED;
+    text-decoration: none;
+}
+a:visited{
+    color:#F3E6DD;
+    text-decoration:none;
+}
+a:hover{
+    color:#D7C0DB;
+    text-decoration:none;
+}
+a:active{
+    color:#A3D9ED;
+    text-decoration:none;
 }
