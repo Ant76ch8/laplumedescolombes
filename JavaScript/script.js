@@ -71,7 +71,7 @@ window.addEventListener("scroll", () => {
     if (window.scrollY > 400){
         membreAsso.className = "row beige membreAsso visible";
     }
-    if (window.scrollY > 700){
+    if (window.scrollY > 900){
         nousContacter.className = "row d-flex justify-content-start visible nousContacter";
     }
     

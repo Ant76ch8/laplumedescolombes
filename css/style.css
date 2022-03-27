@@ -188,15 +188,24 @@ p{
     border-radius: 10px;
     border: #D7C0DB 1px solid;
 }
-
 .photo{
-    width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.photo img{
+    width: 80px;
+}
+.photo p{
+    font-size: small;
+    margin: auto;
 }
 .notreAsso > div > .row{
     margin-top: 60px;
+}
+.presentation{
+    padding: 20px 0;
+}
+.presentation p{
+    text-align: center;
 }
 .nosEvenements > div > .row{
     margin-top: 60px;
