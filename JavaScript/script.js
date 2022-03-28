@@ -15,6 +15,7 @@ const rencontres = document.querySelector(".rencontres");
 const atelierPoesie = document.querySelector(".atelierPoesie");
 const titreRejoindre = document.querySelector(".titreRejoindre");
 const rejoignezNous = document.querySelector(".rejoignezNous");
+const logoAccueil = document.querySelector(".logoAccueil");
 
 
 window.addEventListener("load", () => {
@@ -24,6 +25,11 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         histoire.className = "row d-flex justify-content-between visible histoire";
     }, 300);
+});
+window.addEventListener("load", () => {
+
+    // au chargement animation page asso
+    logoAccueil.className = "logoAccueil visible";
 });
 
 window.addEventListener("load", () => {
@@ -79,12 +85,12 @@ window.addEventListener("scroll", () => {
 
 window.addEventListener("scroll", () => {
     //animation page poèmes
-    if (window.scrollY > 1400){
+    if (window.scrollY > 1300){
         couvLivre.className = "col-lg-3 couv-livre visible";
         setTimeout(()=>{
             achat.className = "col-lg-4 offset-lg-1 d-flex flex-column justify-content-center achat visible";
         }, 200)};
-    if (window.scrollY > 1800){
+    if (window.scrollY > 1900){
         aVenir.className = "col-lg-4 d-flex flex-column justify-content-center visible a-venir";
         setTimeout(()=>{
             couvLivre2.className = "col-lg-3 offset-lg-1 couv-livre2 visible";

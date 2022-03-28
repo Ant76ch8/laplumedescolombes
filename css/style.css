@@ -34,7 +34,8 @@ html, body {
     background-color: transparent;
 }
 .fondAccueil{
-    background: url('../img/background2.png') 100% no-repeat;
+    background: url('../img/background2.png') no-repeat;
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
