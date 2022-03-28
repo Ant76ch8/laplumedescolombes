@@ -42,6 +42,9 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         rencontres.className = "row rencontres visible";
     }, 400);
+    setTimeout(()=>{
+        atelierPoesie.className = "row beige atelierPoesie visible";
+    },600);
 });
 
 window.addEventListener("load", () => {
@@ -74,10 +77,10 @@ window.addEventListener("scroll", () => {
 
 window.addEventListener("scroll", () => {
     // animation page asso
-    if (window.scrollY > 400){
+    if (window.scrollY > 200){
         membreAsso.className = "row beige membreAsso visible";
     }
-    if (window.scrollY > 900){
+    if (window.scrollY > 500){
         nousContacter.className = "row d-flex justify-content-start visible nousContacter";
     }
     
@@ -99,7 +102,7 @@ window.addEventListener("scroll", () => {
 
 window.addEventListener("scroll", () => {
     //animation page évènement
-    if (window.scrollY > 200){
+    if (window.scrollY > 100){
         atelierPoesie.className = "row beige atelierPoesie visible";
     }
 });

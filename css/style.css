@@ -35,7 +35,7 @@ html, body {
 }
 .fondAccueil{
     background: url('../img/background2.png') no-repeat;
-    background-size: cover;
+    background-size: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -119,9 +119,8 @@ html, body {
     box-shadow: rgb(170, 170, 170) 3px 3px 8px;
 }
 .carousel-indicators [data-bs-target]{
-    height: 30px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
     margin: 0 10px;
 }
