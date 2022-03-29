@@ -34,7 +34,7 @@ html, body {
     background-color: transparent;
 }
 .fondAccueil{
-    background: url('../img/background2.png') no-repeat;
+    background: url('../img/background.png') no-repeat;
     background-size: 100%;
     position: fixed;
     top: 0;
@@ -359,4 +359,13 @@ a:hover{
 a:active{
     color:#A3D9ED;
     text-decoration:none;
+}
+
+
+
+@media screen and (max-width:1450px){
+    .fondAccueil{
+        background: url("../img/background_phone.png") no-repeat;
+        background-size: cover;
+    }
 }
