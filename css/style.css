@@ -226,6 +226,9 @@ p{
     box-shadow: rgb(170, 170, 170) 3px 3px 8px;
     border-radius: 10px;
 }
+.evenement1{
+    box-shadow: none;
+}
 .soustitre{
     margin-bottom:20px;
 }
@@ -247,6 +250,9 @@ p{
 }
 .fondEvenements > p {
     margin-top: 30px;
+}
+.evenement1 .fondEvenements{
+    margin-bottom: 30px;
 }
 .evenement1 {
     margin : 20px 0px 20px 0px;
@@ -367,5 +373,11 @@ a:active{
     .fondAccueil{
         background: url("../img/background_phone.png") no-repeat;
         background-size: cover;
+    }
+    .evenement1{
+        padding: 50px;
+        background: white;
+        box-shadow: rgb(170, 170, 170) 3px 3px 8px;
+        border-radius: 10px;
     }
 }
