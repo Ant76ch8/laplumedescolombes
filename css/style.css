@@ -12,6 +12,16 @@ html, body {
     background-color: white;
     margin: 0;
 }
+.retourHaut a img{
+    width: 48px;
+    box-shadow: rgb(170, 170, 170) 2px 2px 8px;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.retourHaut a:hover img{
+    transform: translate(0, -10px);
+}
 
 
 /* typo */
@@ -174,14 +184,10 @@ p{
     background-repeat: no-repeat;
     margin-top: 30px;
 }
-
-.logoPageAsso{
-    padding: 20px 50px;
-    border-radius: 50px;
-    box-shadow: rgb(170, 170, 170) 2px 2px 8px;
-}
 .logoPageAsso img{
     width: 100%;
+    border-radius: 50px;
+    box-shadow: rgb(170, 170, 170) 2px 2px 8px;
 }
 .soustitre + p{
     padding: 30px;
@@ -197,6 +203,12 @@ p{
 .photo p{
     font-size: small;
     margin: auto;
+}
+.video iframe{
+    aspect-ratio: 16/9;
+    box-shadow: rgb(170, 170, 170) 2px 2px 8px;
+    border-radius: 15px;
+    padding: 0;
 }
 .notreAsso > div > .row{
     margin-top: 60px;
@@ -281,11 +293,10 @@ p{
 }
 .achatLivre{
     background-color: white;
-    padding: 100px 0;
 }
 
 .achatLivre > div{
-    margin: 100px 0;
+    margin: 100px 0 0 0;
 }
 .achatLivre .btn{
     box-shadow: rgb(170, 170, 170) 0 0 8px;
@@ -379,5 +390,8 @@ a:active{
         background: white;
         box-shadow: rgb(170, 170, 170) 3px 3px 8px;
         border-radius: 10px;
+    }
+    .achat{
+        padding: 80px 0;
     }
 }
